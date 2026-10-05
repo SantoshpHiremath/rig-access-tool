@@ -1,7 +1,7 @@
 """Orchestrates: check out a rig, run a suite of test cases against a
 chosen (simulated) app, log structured results, release the rig. Models
-"Durchführung und Dokumentation von Tests" plus "Automatisierung von
-Test- und Validierungsprozessen" from the posting.
+running and documenting tests plus automating test and validation
+processes.
 """
 import time
 from dataclasses import dataclass, field

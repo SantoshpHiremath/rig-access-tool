@@ -1,6 +1,6 @@
-"""Mock infotainment app interfaces — SIMULATED, named after the posting's
-own examples (Keyboard, Smartlight, Global Search, Settings). There is no
-real infotainment software here; see README. Each app exposes a small set
+"""Mock infotainment app interfaces — SIMULATED apps (Keyboard, Smartlight,
+Global Search, Settings) that stand in for real infotainment software;
+see README. Each app exposes a small set
 of named test cases with realistic pass/fail/flaky behavior driven by a
 seeded RNG, so there's genuine variance to detect and report on rather
 than an always-green suite.

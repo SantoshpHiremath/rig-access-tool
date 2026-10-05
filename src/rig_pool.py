@@ -1,9 +1,9 @@
 """Manages a pool of shared, SIMULATED infotainment test rigs.
 
-Models the "remote access to shared test setups" part of the posting —
-multiple users share a limited pool of rigs, checking one out for a
-session and releasing it when done, with a FIFO queue when everything is
-busy. No real hardware exists here; see README for the full disclosure.
+Models remote access to shared test setups — multiple users share a
+limited pool of rigs, checking one out for a session and releasing it
+when done, with a FIFO queue when everything is busy. The rigs are
+simulated; see README.
 """
 from collections import deque
 from dataclasses import dataclass, field

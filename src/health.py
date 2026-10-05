@@ -1,6 +1,5 @@
-"""Simulated health checks for rigs in the pool — models "Betrieb, Wartung
-und Fehleranalyse von Testumgebungen" (operating, maintaining, and fault-
-analyzing test environments) from the posting.
+"""Simulated health checks for rigs in the pool — models operating,
+maintaining, and fault-analyzing test environments.
 
 A real implementation would ping actual hardware (serial console, network
 reachability, a heartbeat app on the head unit, etc.). Here, health check
